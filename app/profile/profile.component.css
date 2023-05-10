@@ -1,0 +1,64 @@
+/* body{
+    background-color: rgb(126, 124, 124);
+    height: 100%;
+} */
+
+#profile {
+    background-color: rgb(173, 165, 154);
+    height: 100vh;
+}
+
+.notesBG {
+    background-color: rgb(173, 165, 154);
+    /* height: 100%; */
+}
+
+.note {
+    min-height: 250px;
+    max-height: 250px;
+    overflow: auto;
+    background-color:#e6e5c6;
+}
+
+i, a {
+    cursor: pointer;
+}
+
+.addnote {
+    background-color: rgb(228, 133, 74);
+    color: white;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+.addnote:hover {
+    background-color: rgb(133, 74, 37);
+    transform: scale(0.95, 0.95);
+}
+
+.dropdown-menu {
+    transform: translate3d(-101px, -98px, 0px);
+    min-width: 2rem;
+    padding: 0.5rem 2px;
+    left: -86px;
+    /* margin: 0.125rem -103px 0px; */
+}
+@media screen and (max-width:768px){
+    .note {
+        width: 75%;
+    }
+    .dis {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.head5{
+    word-wrap: break-word;
+    color: rgb(83, 35, 6);
+    font-weight: bolder;
+}
+.content2{
+    word-wrap: break-word;
+}

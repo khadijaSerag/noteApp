@@ -1,0 +1,23 @@
+#signIn {
+    height: 100vh;
+    background-color:#484b44 ;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+@media screen and (max-width:768px){
+    .form {
+        width: 75%;
+    }
+}
+
+.signin{
+    background-color: rgb(155, 80, 34);
+    color: white;
+    font-weight: bolder;
+}

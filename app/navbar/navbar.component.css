@@ -1,0 +1,16 @@
+li{
+    cursor: pointer;
+    color: white;
+}
+.log{
+    color: black;
+    transition: all 1s;
+}
+.log:hover{
+    color: red;
+    font-size: 19px;
+}
+#navbar1{
+    background-color:#e9e7ce ;
+}
+/* rgb(165, 158, 158) */
